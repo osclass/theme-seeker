@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2012-03-20 12:18+0100\n"
 "PO-Revision-Date: 2012-03-20 12:18+0100\n"
 "Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
-"Language-Team: OSClass <info@osclass.org>\n"
+"Language-Team: Osclass <info@osclass.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,7 +64,7 @@ msgid "Send"
 msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/osclass-themes-git/seeker/footer.php:25
-msgid "This website is proudly using the <a title=\"OSClass\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>OSClass</strong>"
+msgid "This website is proudly using the <a title=\"Osclass\" href=\"http://osclass.org/\">classifieds scripts</a> software <strong>Osclass</strong>"
 msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/osclass-themes-git/seeker/functions.php:59
@@ -426,7 +426,7 @@ msgid "The images folder %s is not writable on your server"
 msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/osclass-themes-git/seeker/admin/admin_settings.php:95
-msgid "OSClass can't upload logo image from the administration panel"
+msgid "Osclass can't upload logo image from the administration panel"
 msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/osclass-themes-git/seeker/admin/admin_settings.php:96

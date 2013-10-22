@@ -3,7 +3,7 @@
      *      OSCLass – software for creating and publishing online classified
      *                           advertising platforms
      *
-     *                        Copyright (C) 2010 OSCLASS
+     *                        Copyright (C) 2013 Osclass
      *
      *       This program is free software: you can redistribute it and/or
      *     modify it under the terms of the GNU Affero General Public License
@@ -19,6 +19,7 @@
      * License along with this program.  If not, see <http://www.gnu.org/licenses/>.
      */
      //osc_set_preference('maxLatestItems@home',5,'osclass');
+View::newInstance()->_exportVariableToView('seeker_class', 'odd');
 ?>
 <h1><strong><?php _e('Search results', 'seeker') ; ?></strong></h1>
 
@@ -35,7 +36,6 @@
             <tr>
         </thead>
         <tbody>
-            <?php $class = "odd" ; ?>
             <?php while ( osc_has_items() ) { ?>
                 <?php osc_current_web_theme_path('inc.grid.php') ; ?>
             <?php } ?>
