@@ -24,7 +24,7 @@
      <tbody>
         <?php $class = "even" ; ?>
         <?php while(osc_has_items()) { ?>
-            <tr class="<?php echo $class; ?>">
+            <tr class="<?php osc_run_hook("highlight_class"); ?> <?php echo $class; ?>">
                  <td class="text">
                      <h3><a href="<?php echo osc_item_url() ; ?>"><?php echo osc_item_title() ; ?></a></h3>
                      <p><?php echo osc_highlight( strip_tags( osc_item_description() ), 200 ) ; ?></p>
